@@ -18,8 +18,8 @@ import {Link} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     card: {
-        minWidth: 350,
-        maxWidth:350,
+        minWidth: 300,
+        maxWidth:300,
         minHeight:200,
         borderRadius: 5,
         '&:hover': {

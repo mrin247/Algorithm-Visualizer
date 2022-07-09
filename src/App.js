@@ -8,6 +8,7 @@ import Queen from "./queenComponents/queen";
 import ConvexHull from "./convexHullComponents/convexHull";
 import BinarySearch from "./binarySearchComponent/binarySearch";
 import RecursiveSort from "./recursiveSortComponents/recursiveSort";
+import Graph from "./Graph/graph";
 class App extends Component {
   constructor() {
     super();
@@ -34,14 +35,15 @@ class App extends Component {
       <Router>
         <Fragment>
           <Routes>
-            <Route path="/pathfinder" element={<Pathfinder/>} />
-            <Route path="/prime" element={<Seive/>} />
-            <Route path="/sort" element={<Sort/>} />
-            <Route path="/nqueen" element={<Queen/>} />
-            <Route path="/convexhull" element={<ConvexHull/>} />
-            <Route path="/binarysearch" element={<BinarySearch/>} />
-            <Route path="/recursivesort" element={<RecursiveSort/>} />
-            <Route path="/" element={<Home/>} />
+            <Route path="/pathfinder" element={<Pathfinder />} />
+            <Route path="/prime" element={<Seive />} />
+            <Route path="/sort" element={<Sort />} />
+            <Route path="/nqueen" element={<Queen />} />
+            <Route path="/convexhull" element={<ConvexHull />} />
+            <Route path="/binarysearch" element={<BinarySearch />} />
+            <Route path="/recursivesort" element={<RecursiveSort />} />
+            <Route path="/graph" element={<Graph />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </Fragment>
       </Router>

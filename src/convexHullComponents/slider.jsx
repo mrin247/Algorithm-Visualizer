@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
@@ -38,7 +39,6 @@ export default function DiscreteSlider(props) {
                 marks={props.marks}
                 min={props.min}
                 max={props.max}
-                valueLabelDisplay="on"
                 disabled={props.isDisabled}
             />
         </div>

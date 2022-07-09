@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-                <a className="navbar-brand" href="/">Algorithm Visualizer</a>
+            <nav className="navbar navbar-expand-lg" style={{backgroundColor:"#000000"}}>
+                <a className="navbar-brand" href="/" style={{color:"rgb(229 9 20)", fontSize:"25px", paddingLeft:"30px"}}>ALGOFLIX</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">

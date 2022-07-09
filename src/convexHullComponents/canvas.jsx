@@ -40,12 +40,12 @@ class Canvas extends Component {
                     <canvas
                         className='canvas'
                         id='canvas1'
-                        style={{backgroundColor:"whitesmoke"}}
+                        style={{backgroundColor:"white"}}
                         ref={this.canvasLineRef} width={window.innerWidth} height={window.innerHeight-200} />
                     <canvas
                         className='canvas'
                         id='canvas2'
-                        // style={{backgroundColor:"grey"}}
+                        //style={{backgroundColor:"grey"}}
                         ref={this.myRef} width={window.innerWidth} height={window.innerHeight-200}
                     />
 

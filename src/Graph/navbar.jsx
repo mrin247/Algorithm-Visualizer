@@ -5,7 +5,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg " style={{backgroundColor:"#000000", color:"rgb(229 9 20)"}}>
-                <span className="navbar-brand" style={{paddingLeft:"30px"}}>Sorting Visualizer</span>
+                <span className="navbar-brand" style={{paddingLeft:"30px"}}>Recursion Tree</span>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">

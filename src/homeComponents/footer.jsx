@@ -6,12 +6,16 @@ class Footer extends Component {
         return (
             <footer class="page-footer font-small special-color-dark pt-4 ">
 
-                
-
-                <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                    <a href="https://github.com/mrin247" style={{color: "#65b6f0"}}>Mrinmoy Mondal</a>
+                <div style={{display:"flex", justifyContent:"center"}}>
+                <div class="footer-copyright text-center py-3" style={{paddingRight:"5px", color:"rgb(229 9 20)"}}>Github:
+                    <a href="https://github.com/mrin247" style={{color: "#65b6f0",textDecoration:"none",paddingLeft:"5px"}}>Mrinmoy Mondal</a>
+                </div>
+                <div class="footer-copyright text-center py-3" style={{paddingRight:"5px", color:"rgb(229 9 20)"}}>Linkedin:
+                    <a href="https://www.linkedin.com/in/mrinmoymondal/" style={{color: "#65b6f0",textDecoration:"none",paddingLeft:"5px"}}>Mrinmoy Mondal</a>
+                </div>
                 </div>
 
+                
             </footer>
         );
     }
